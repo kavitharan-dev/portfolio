@@ -87,9 +87,10 @@ function Hero() {
           <div className="photo-frame">
             <div className="photo-avatar">
               <img
-                src="/profile.png"
+                src={`${import.meta.env.BASE_URL}profile.png`}
                 alt={`${personalInfo.name} — Software Engineering Internship Candidate`}
                 className="avatar-image"
+                loading="eager"
               />
               <div className="avatar-ring" />
             </div>
