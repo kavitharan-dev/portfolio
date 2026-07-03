@@ -3,12 +3,13 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://kavitharan-dev.github.io/portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.3.1",
